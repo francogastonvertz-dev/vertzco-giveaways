@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VERTZCO® GIVEAWAYS STUDIO</title>
+<style>
+:root{--bg:#f4f4f2;--panel:#fff;--ink:#111;--muted:#777;--line:#e7e7e4;--gold:#c7a96b;--dark:#101010}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px Inter,Arial,sans-serif}
+button,input,select{font:inherit}button{cursor:pointer;border:0;border-radius:10px;padding:11px 15px;background:#111;color:#fff;font-weight:650}button.secondary{background:#eee;color:#111}button.outline{background:transparent;border:1px solid var(--line);color:#111}button:disabled{opacity:.45;cursor:not-allowed}
+.app{display:grid;grid-template-columns:245px 1fr;min-height:100vh}.side{background:#fff;border-right:1px solid var(--line);padding:24px 16px;display:flex;flex-direction:column}.brand{font-weight:900;letter-spacing:4px;font-size:19px;padding:5px 10px}.subbrand{font-size:9px;letter-spacing:2px;color:#777;margin:4px 10px 30px}.nav{display:grid;gap:7px}.nav button{background:transparent;color:#444;text-align:left;font-weight:550}.nav button.active,.nav button:hover{background:#f0f0ee;color:#111}.sidefoot{margin-top:auto;color:#888;font-size:12px;padding:14px 10px}.main{padding:30px;max-width:1400px;width:100%;margin:auto}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.eyebrow{font-size:10px;letter-spacing:2px;color:#888;font-weight:700}.title{font-size:30px;font-weight:800;letter-spacing:-1px;margin:7px 0}.desc{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0}.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:19px}.metric{font-size:28px;font-weight:800;margin-top:12px}.metriclabel{font-size:10px;letter-spacing:1.5px;color:#888;font-weight:700}.layout{display:grid;grid-template-columns:1.3fr .7fr;gap:16px}.sectionhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.sectionhead h3{margin:0;font-size:16px}.muted{color:#888;font-size:13px}.pill{display:inline-block;padding:5px 9px;border-radius:30px;background:#eee;font-size:11px;font-weight:700}.pill.gold{background:#f5efdf;color:#856b35}.row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid var(--line)}.row:last-child{border:0}.empty{padding:28px;text-align:center;color:#888;border:1px dashed #ddd;border-radius:12px}.actions{display:flex;gap:8px;flex-wrap:wrap}.hidden{display:none!important}.formrow{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}.formrow input,.formrow select{min-width:0;flex:1;padding:11px;border:1px solid var(--line);border-radius:9px;background:#fff}.tablewrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:11px;border-bottom:1px solid var(--line)}th{font-size:10px;letter-spacing:1px;color:#888}.drawscreen{background:#101010;color:white;border-radius:18px;padding:30px;text-align:center;min-height:400px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}.drawscreen:before{content:"";position:absolute;width:380px;height:380px;border:1px solid #ffffff12;border-radius:50%}.drawscreen>*{position:relative}.drawlogo{letter-spacing:6px;font-weight:900;color:#ddd}.drawlabel{color:#aaa;letter-spacing:3px;font-size:10px;margin:30px 0 10px}.winner{font-size:clamp(28px,5vw,54px);font-weight:900;letter-spacing:-2px;margin:12px 0;color:#e5cc91;min-height:65px}.drawmeta{color:#aaa;font-size:13px}.goldbtn{background:var(--gold);color:#111;padding:14px 24px;margin-top:24px}.small{font-size:11px;color:#888}.notice{background:#faf7ee;border:1px solid #eee2c4;border-radius:12px;padding:13px;color:#6e5b32;font-size:13px;line-height:1.5}.modal{position:fixed;inset:0;background:#0009;display:flex;align-items:center;justify-content:center;padding:20px;z-index:5}.modalbox{background:white;border-radius:16px;padding:24px;max-width:480px;width:100%}.modalbox input{width:100%;padding:12px;border:1px solid var(--line);border-radius:9px;margin:8px 0 14px}
+@media(max-width:850px){.app{grid-template-columns:1fr}.side{padding:14px;position:static}.brand{font-size:16px}.subbrand{margin-bottom:12px}.nav{grid-template-columns:repeat(3,1fr)}.nav button{font-size:12px;padding:9px}.sidefoot{display:none}.main{padding:18px}.grid{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.top{align-items:flex-start;gap:10px;flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="app">
+<aside class="side">
+  <div class="brand">VERTZCO®</div><div class="subbrand">GIVEAWAYS STUDIO</div>
+  <nav class="nav">
+    <button class="active" data-page="inicio">▦ &nbsp; Panel principal</button>
+    <button data-page="sorteos">◇ &nbsp; Sorteos</button>
+    <button data-page="participantes">♙ &nbsp; Participantes</button>
+    <button data-page="sala">✦ &nbsp; Sala de sorteos</button>
+    <button data-page="proximos">▣ &nbsp; Próximos sorteos</button>
+    <button data-page="historial">♜ &nbsp; Historial</button>
+    <button data-page="config">⚙ &nbsp; Configuración</button>
+  </nav>
+  <div class="sidefoot">ACCESO LOCAL · VERTZCO MANAGEMENT<br>DROP 01 — ORIGEN</div>
+</aside>
+<main class="main">
+  <div class="top"><div><div class="eyebrow">VERTZCO MANAGEMENT / GIVEAWAYS</div><h1 class="title" id="pageTitle">Panel principal</h1><p class="desc" id="pageDesc">Centro de control de sorteos y campañas.</p></div><button onclick="newDraw()">＋ Nuevo sorteo</button></div>
+  <section id="page-inicio">
+    <div class="grid">
+      <div class="card"><div class="metriclabel">SORTEOS ACTIVOS</div><div class="metric" id="mActive">0</div></div>
+      <div class="card"><div class="metriclabel">PARTICIPACIONES</div><div class="metric" id="mEntries">0</div></div>
+      <div class="card"><div class="metriclabel">PRÓXIMOS SORTEOS</div><div class="metric" id="mUpcoming">0</div></div>
+      <div class="card"><div class="metriclabel">GANADORES REGISTRADOS</div><div class="metric" id="mWinners">0</div></div>
+    </div>
+    <div class="layout">
+      <div class="card"><div class="sectionhead"><h3>Sorteo actual</h3><span class="pill gold">DROP 01</span></div><h2 id="homeDraw">SORTEO OFICIAL 001 — ORIGEN</h2><p class="muted" id="homeMeta">Preparado para cargar participantes.</p><div class="actions"><button onclick="go('participantes')">Administrar participantes</button><button class="secondary" onclick="go('sala')">Abrir sala de sorteos</button></div></div>
+      <div class="card"><div class="sectionhead"><h3>Próximas fechas</h3><button class="outline" onclick="go('proximos')">Ver agenda</button></div><div id="homeUpcoming" class="muted">Todavía no hay sorteos programados.</div></div>
+    </div>
+    <div class="notice" style="margin-top:16px">Importante: esta versión guarda la información en este navegador y dispositivo. Para trabajar con Marketing desde distintos equipos habrá que conectar una base de datos y autenticación real.</div>
+  </section>
+  <section id="page-sorteos" class="hidden">
+    <div class="card"><div class="sectionhead"><h3>Administración de sorteos</h3><button onclick="newDraw()">＋ Crear sorteo</button></div><div id="drawList"></div></div>
+  </section>
+  <section id="page-participantes" class="hidden">
+    <div class="card">
+      <div class="sectionhead"><div><h3>Participantes y oportunidades</h3><div class="muted">Una fila importada equivale a una oportunidad válida, previa verificación.</div></div><span class="pill" id="entryCount">0 oportunidades</span></div>
+      <div class="notice">Importá un CSV exportado de los comentarios. Esta herramienta no verifica automáticamente que se sigan cuentas ni que las etiquetas cumplan las reglas: esa revisión debe realizarse antes del sorteo. Conservá el archivo original como respaldo.</div>
+      <div class="formrow"><input type="file" id="csvFile" accept=".csv,text/csv"><button onclick="importCSV()">Importar CSV</button><button class="secondary" onclick="downloadCSV()">Exportar lista</button></div>
+      <div class="formrow"><input id="pName" placeholder="Usuario de Instagram (ej. @usuario)"><input id="pComment" placeholder="Comentario / referencia"><button onclick="addEntry()">Agregar oportunidad</button></div>
+      <div class="formrow"><input id="filter" placeholder="Buscar participante..." oninput="renderEntries()"><button class="outline" onclick="clearEntries()">Vaciar lista</button></div>
+      <div class="tablewrap"><table><thead><tr><th>USUARIO</th><th>COMENTARIO / REFERENCIA</th><th></th></tr></thead><tbody id="entryRows"></tbody></table></div>
+    </div>
+  </section>
+  <section id="page-sala" class="hidden">
+    <div class="card" style="margin-bottom:15px"><div class="formrow"><select id="drawSelect" onchange="updateDrawInfo()"></select><select id="winnerQty"><option value="3">3 ganadores</option><option value="1">1 ganador</option><option value="2">2 ganadores</option></select></div><div class="muted" id="drawInfo">Prepará la lista y comenzá la selección.</div></div>
+    <div class="drawscreen"><div class="drawlogo">VERTZCO®</div><div class="drawlabel">OFFICIAL GIVEAWAY DRAW</div><div class="winner" id="winnerDisplay">THE WINNER IS...</div><div class="drawmeta" id="drawStatus">La selección aparecerá en pantalla.</div><button class="goldbtn" id="startDraw" onclick="runDraw()">COMENZAR SORTEO</button></div>
+    <div class="actions" style="margin-top:14px"><button class="secondary" onclick="saveDrawResult()">Guardar resultado</button><button class="outline" onclick="resetDrawScreen()">Reiniciar pantalla</button></div>
+    <p class="small">Consejo: poné el navegador en pantalla completa (F11) y grabá la pantalla. La selección usa aleatoriedad del navegador; guardá el CSV de participantes y el video como respaldo.</p>
+    <div id="resultList" class="card" style="margin-top:14px"><h3>Ganadores de esta sesión</h3><div class="muted">Todavía no se realizó ninguna selección.</div></div>
+  </section>
+  <section id="page-proximos" class="hidden">
+    <div class="card"><div class="sectionhead"><h3>Calendario de próximos sorteos</h3><button onclick="newUpcoming()">＋ Programar</button></div><div id="upcomingList"></div></div>
+  </section>
+  <section id="page-historial" class="hidden">
+    <div class="card"><div class="sectionhead"><h3>Registro de resultados</h3><button class="secondary" onclick="exportHistory()">Exportar historial</button></div><div id="historyList"></div></div>
+  </section>
+  <section id="page-config" class="hidden">
+    <div class="card"><h3>Configuración del estudio</h3><p class="muted">Personalizá la campaña y administrá los datos guardados en este navegador.</p><div class="formrow"><input id="brandName" value="VERTZCO®"><input id="campaignName" value="SORTEO OFICIAL 001 — DROP 01 ORIGEN"></div><button onclick="saveConfig()">Guardar configuración</button><button class="secondary" onclick="backup()">Descargar copia de seguridad</button><p class="small">No compartas este archivo HTML con información sensible. El acceso local no equivale a un sistema de autenticación seguro.</p></div>
+  </section>
+</main></div>
+<div id="modal" class="modal hidden"><div class="modalbox"><h2 id="modalTitle">Nuevo sorteo</h2><div id="modalBody"></div><div class="actions"><button onclick="closeModal()" class="secondary">Cancelar</button><button onclick="submitModal()">Guardar</button></div></div></div>
+<script>
+const KEY='vertzco_giveaways_v1';
+let db=JSON.parse(localStorage.getItem(KEY)||'null')||{draws:[{id:'d1',name:'SORTEO OFICIAL 001 — DROP 01 ORIGEN',status:'Activo',date:'',prizes:'Buzo · Remera · 30% de descuento'}],active:'d1',entries:[],upcoming:[],history:[],config:{brand:'VERTZCO®',campaign:'SORTEO OFICIAL 001 — DROP 01 ORIGEN'}};
+let sessionWinners=[];
+function persist(){localStorage.setItem(KEY,JSON.stringify(db));renderAll()}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function go(p){document.querySelectorAll('main section').forEach(x=>x.classList.add('hidden'));document.getElementById('page-'+p).classList.remove('hidden');document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.page===p));let names={inicio:['Panel principal','Centro de control de sorteos y campañas.'],sorteos:['Sorteos','Administrá campañas activas y finalizadas.'],participantes:['Participantes','Importá y revisá las oportunidades del sorteo.'],sala:['Sala de sorteos','Experiencia de selección y revelación de ganadores.'],proximos:['Próximos sorteos','Planificá las próximas campañas de VERTZCO.'],historial:['Historial','Resultados guardados y trazabilidad.'],config:['Configuración','Preferencias y respaldo local.']};pageTitle.textContent=names[p][0];pageDesc.textContent=names[p][1];renderAll()}
+document.querySelectorAll('.nav button').forEach(b=>b.onclick=()=>go(b.dataset.page));
+function activeDraw(){return db.draws.find(d=>d.id===(document.getElementById('drawSelect')?.value||db.active))||db.draws[0]}
+function newDraw(){openModal('Crear sorteo',`<label>Nombre del sorteo</label><input id="fName" placeholder="Ej. SORTEO OFICIAL 002"><label>Premios</label><input id="fPrize" placeholder="Premios separados por punto medio"><label>Fecha de cierre (opcional)</label><input id="fDate" type="date">`,'draw')}
+function newUpcoming(){openModal('Programar próximo sorteo',`<label>Nombre</label><input id="fName" placeholder="Nombre de campaña"><label>Premio / descripción</label><input id="fPrize" placeholder="Premio principal"><label>Fecha estimada</label><input id="fDate" type="date">`,'upcoming')}
+let modalType='';
+function openModal(t,b,type){modalType=type;modalTitle.textContent=t;modalBody.innerHTML=b;modal.classList.remove('hidden')}
+function closeModal(){modal.classList.add('hidden')}
+function submitModal(){let name=document.getElementById('fName')?.value.trim();if(!name)return alert('Ingresá un nombre.');let prize=document.getElementById('fPrize')?.value.trim()||'';let date=document.getElementById('fDate')?.value||'';if(modalType==='draw'){let d={id:'d'+Date.now(),name,status:'Activo',date,prizes:prize};db.draws.push(d);db.active=d.id}else db.upcoming.push({id:'u'+Date.now(),name,prize,date});closeModal();persist()}
+function renderAll(){mActive.textContent=db.draws.filter(d=>d.status==='Activo').length;mEntries.textContent=db.entries.length;mUpcoming.textContent=db.upcoming.length;mWinners.textContent=db.history.reduce((n,h)=>n+h.winners.length,0);homeDraw.textContent=(db.draws.find(d=>d.id===db.active)||{}).name||'Sin sorteo activo';homeMeta.textContent=db.entries.length+' oportunidades cargadas · '+(db.draws.find(d=>d.id===db.active)||{}).status;homeUpcoming.innerHTML=db.upcoming.slice(0,3).map(u=>`<div class="row"><div><b>${esc(u.name)}</b><div class="muted">${esc(u.date||'Fecha a confirmar')}</div></div><span class="pill">Próximo</span></div>`).join('')||'Todavía no hay sorteos programados.';drawList.innerHTML=db.draws.map(d=>`<div class="row"><div><b>${esc(d.name)}</b><div class="muted">${esc(d.prizes)} · ${esc(d.date||'Sin fecha')}</div></div><div class="actions"><span class="pill">${esc(d.status)}</span><button class="secondary" onclick="setActive('${d.id}')">Seleccionar</button></div></div>`).join('');upcomingList.innerHTML=db.upcoming.map(u=>`<div class="row"><div><b>${esc(u.name)}</b><div class="muted">${esc(u.prize)} · ${esc(u.date||'Fecha a confirmar')}</div></div><button class="outline" onclick="removeUpcoming('${u.id}')">Eliminar</button></div>`).join('')||'<div class="empty">No hay próximos sorteos programados.</div>';historyList.innerHTML=db.history.map(h=>`<div class="row"><div><b>${esc(h.drawName)}</b><div class="muted">${new Date(h.date).toLocaleString('es-AR')}</div><div>${h.winners.map(w=>'<span class="pill gold">'+esc(w.user)+'</span>').join(' ')}</div></div></div>`).join('')||'<div class="empty">Todavía no hay resultados guardados.</div>';entryCount.textContent=db.entries.length+' oportunidades';renderEntries();let sel=drawSelect.value||db.active;drawSelect.innerHTML=db.draws.map(d=>`<option value="${d.id}">${esc(d.name)}</option>`).join('');drawSelect.value=db.draws.some(d=>d.id===sel)?sel:db.active;updateDrawInfo();brandName.value=db.config.brand;campaignName.value=db.config.campaign}
+function setActive(id){db.active=id;persist()}
+function removeUpcoming(id){db.upcoming=db.upcoming.filter(u=>u.id!==id);persist()}
+function addEntry(){let user=pName.value.trim().replace(/^@/,'');if(!user)return alert('Ingresá el usuario.');db.entries.push({id:'e'+Date.now()+Math.random(),user,comment:pComment.value.trim()});pName.value='';pComment.value='';persist()}
+function renderEntries(){let q=(filter.value||'').toLowerCase();entryRows.innerHTML=db.entries.filter(e=>(e.user+' '+e.comment).toLowerCase().includes(q)).slice(0,500).map(e=>`<tr><td>@${esc(e.user)}</td><td>${esc(e.comment)}</td><td><button class="outline" onclick="removeEntry('${e.id}')">Quitar</button></td></tr>`).join('')||'<tr><td colspan="3" class="muted">No hay participantes cargados.</td></tr>'}
+function removeEntry(id){db.entries=db.entries.filter(e=>e.id!==id);persist()}
+function clearEntries(){if(confirm('¿Vaciar todas las oportunidades del sorteo? Descargá un respaldo antes.')){db.entries=[];persist()}}
+function parseCSV(text){let rows=[],row=[],v='',quoted=false;for(let i=0;i<text.length;i++){let c=text[i],n=text[i+1];if(c==='"'&&quoted&&n==='"'){v+='"';i++}else if(c==='"')quoted=!quoted;else if((c===','||c===';'||c==='\t')&&!quoted){row.push(v);v=''}else if((c==='\n'||c==='\r')&&!quoted){if(c==='\r'&&n==='\n')i++;row.push(v);if(row.some(x=>x.trim()))rows.push(row);row=[];v=''}else v+=c}row.push(v);if(row.some(x=>x.trim()))rows.push(row);return rows}
+async function importCSV(){let f=csvFile.files[0];if(!f)return alert('Seleccioná un archivo CSV.');let rows=parseCSV(await f.text());if(rows.length<1)return alert('El archivo está vacío.');let header=rows[0].map(x=>x.toLowerCase());let ui=header.findIndex(x=>/user|usuario|username|handle|cuenta/.test(x));let ci=header.findIndex(x=>/comment|comentario|text|texto/.test(x));let start=(ui>=0||ci>=0)?1:0;if(ui<0)ui=0;if(ci<0)ci=1;let added=0;for(let r of rows.slice(start)){let user=(r[ui]||'').trim().replace(/^@/,'');if(user){db.entries.push({id:'e'+Date.now()+Math.random(),user,comment:(r[ci]||'').trim()});added++}}persist();alert('Se importaron '+added+' oportunidades. Revisá la lista y validá los requisitos antes del sorteo.')}
+function downloadCSV(){let lines=[['usuario','comentario'],...db.entries.map(e=>[e.user,e.comment])];let csv=lines.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');downloadBlob('\ufeff'+csv,'vertzco_participantes.csv','text/csv')}
+function updateDrawInfo(){let d=activeDraw();drawInfo.textContent=d?d.name+' · '+db.entries.length+' oportunidades cargadas':'No hay sorteo seleccionado.'}
+function runDraw(){if(db.entries.length<1)return alert('Primero cargá participantes.');let qty=Number(winnerQty.value);let uniqueUsers=[...new Set(db.entries.map(e=>e.user.toLowerCase()))];if(uniqueUsers.length<qty)return alert('Necesitás al menos '+qty+' usuarios distintos para elegir ganadores diferentes.');let pool=[...db.entries];sessionWinners=[];startDraw.disabled=true;let count=0;let interval=setInterval(()=>{let e=pool[Math.floor(Math.random()*pool.length)];winnerDisplay.textContent='@'+e.user;drawStatus.textContent='Seleccionando ganadores…';count++;if(count>28){clearInterval(interval);let available=[...pool];for(let i=0;i<qty;i++){let total=available.length;let idx=Math.floor(Math.random()*total);let chosen=available[idx];sessionWinners.push({user:chosen.user,comment:chosen.comment});available=available.filter(x=>x.user.toLowerCase()!==chosen.user.toLowerCase())}showWinner(0)}},85)}
+function showWinner(i){if(i>=sessionWinners.length){startDraw.disabled=false;drawStatus.textContent=sessionWinners.length+' ganadores seleccionados · Guardá el resultado para registrarlo.';resultList.innerHTML='<h3>Ganadores de esta sesión</h3>'+sessionWinners.map((w,i)=>`<div class="row"><b>${i+1}° premio — @${esc(w.user)}</b><span class="pill gold">Seleccionado</span></div>`).join('');return}winnerDisplay.textContent='@'+sessionWinners[i].user;drawStatus.textContent='GANADOR '+(i+1)+' DE '+sessionWinners.length;setTimeout(()=>showWinner(i+1),1500)}
+function saveDrawResult(){if(!sessionWinners.length)return alert('Primero realizá el sorteo.');let d=activeDraw();db.history.unshift({id:'h'+Date.now(),drawName:d?.name||'Sorteo',date:new Date().toISOString(),winners:sessionWinners});if(d)d.status='Finalizado';persist();alert('Resultado guardado en el historial local.');}
+function resetDrawScreen(){sessionWinners=[];winnerDisplay.textContent='THE WINNER IS...';drawStatus.textContent='La selección aparecerá en pantalla.';resultList.innerHTML='<h3>Ganadores de esta sesión</h3><div class="muted">Todavía no se realizó ninguna selección.</div>';startDraw.disabled=false}
+function exportHistory(){downloadBlob(JSON.stringify(db.history,null,2),'vertzco_historial.json','application/json')}
+function backup(){downloadBlob(JSON.stringify(db,null,2),'vertzco_backup.json','application/json')}
+function saveConfig(){db.config={brand:brandName.value,campaign:campaignName.value};persist();alert('Configuración guardada.')}
+function downloadBlob(content,name,type){let a=document.createElement('a'),url=URL.createObjectURL(new Blob([content],{type}));a.href=url;a.download=name;a.click();URL.revokeObjectURL(url)}
+renderAll();
+</script>
+</body></html>
